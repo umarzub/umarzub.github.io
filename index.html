@@ -1,68 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Your Website</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UAZ website</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo"><a href="https://sites.google.com/view/telecomhub-uz/home"><img src = 'logo.jpg' width="40" height="40"></a></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+	<div class="container">
+		<!--left sidebar-->
+		<nav class="sidebar">
+			<div align="center">
+				<a href="https://sites.google.com/view/telecomhub-uz/home"><img src="HD.jpeg" class="pro-pic"></a>
+			</div>
+			<br>
+			<hr>
+			<ul>
+				<li><a href="#about">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li><br><hr>
+                <li><a href="#contact">Contact Me</a></li>
+                <div class="nav-contact">
+            	<ul>
+	            	<li><a href="https://www.linkedin.com/in/umar-zubairi">LinkedIn</a><br>
+	            	<li><a href="https://wa.me/923260941361">WhatsApp</a><br>
+	            	<li><a href="mailto:engineerumarzubairi@gmail.com">e-mail</a><br>
+	            	<li><a href="https://medium.com/@engineerumarzubairi">Medium</a><br>	
+            	</ul>
+        	</div>
+            </ul>
+            
+		</nav>
 
-    <!-- Main Content Section -->
-    <section id="home" class="section">
-        <h1><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=30&pause=500&color=1AA5F7&center=true&vCenter=true&width=435&lines=Hello+There+%F0%9F%91%8B;I'm+Umar+Zubairi+%F0%9F%98%83;AI+Engineer+%F0%9F%96%A5;Data+Science+Expert+%F0%9F%93%88" alt="Typing SVG" /></a></h1>
-        <p>I am passionate about AI and Machine Learning. Explore my projects and get in touch!</p><hr>
-        <p><h2>Contact Information</h2>
-        <button class="cta-button" onclick="openLinkedin()">LinkedIn</button>
-        <button class="cta-button" onclick="openWhatsapp()">WhatsApp</button>
-        <button class="cta-button" onclick="openEmail()">Email</button>
-        </p><hr>
-        <button class="cta-button" onclick="showAlert()">Explore More</button>
-    </section>
+		<!--center-->
+		<div class="main">
+			<!--About Me-->
+			<section id="about">
+		        <h1>About Me</h1>
+		        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=30&pause=500&color=1AA5F7&center=true&vCenter=true&width=435&lines=Hello+There+%F0%9F%91%8B;I'm+Umar+Zubairi+%F0%9F%98%83;AI+Engineer+%F0%9F%96%A5;Data+Science+Expert+%F0%9F%93%88" alt="Typing SVG" /></a>
+		        <div id="about-content">Loading...</div> <!-- This will be replaced by external content -->
+		    </section>
+			<hr>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2>Featured Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Beyond Sight</h3>
-                <p>The "Beyond Sight" Project has been realized with an idea to design a compact and portable device that helps blind people navigate effortlessly in real-time. </p>
-            </div>
-            <div class="project-card">
-                <h3>Transfer Learning</h3>
-                <p>Developed AI solutions using Transfer Learning, including fine-tuning Meta’s Llama-2 (LLM) to create a Doctor Chatbot for medical consultation, and performing image classification on mobilenetV2 model to detect dog breeds from image input, leveraging pre-trained models for efficient learning. </p>
-            </div>
-            <div class="project-card">
-                <h3>Supervised learning</h3>
-                <p>Developed and trained supervised learning models to predict heart disease in patients and bulldozer prices using datasets from Kaggle, utilizing algorithms such as logistic regression, decision trees, and random forests, with Python libraries like scikit-learn and Pandas for data processing and analysis. </p>
-            </div>
-            <div class="project-card">
-                <h3>Reinforcement Learning</h3>
-                <p>Developed and trained AI agents for various tasks using Reinforcement Learning techniques, including Q-Learning for optimizing e-commerce warehouse flow, DQN for landing a spaceship on the moon, DCQN with CNN integration for playing PacMan, and A3C for KungFu training, leveraging frameworks like NumPy and OpenAI Gymnasium. </p>
-            </div>
-            <div class="project-card">
-                <h3>Telecom Engr. Projects</h3>
-                <p>Developed multiple telecommunications projects, including designing and analyzing amplitude modulation systems, implementing a Walsh code decoder, and transmitting binary data over IR Free space Optical (FSO) communication. Gained hands-on experience in signal processing, coding theory, and digital communication. Designed a long-haul fiber optic link with limited optical amplifiers for up-country data traffic, and configured a SoftSwitch system for VoIP connectivity. Additionally, conducted MATLAB-based analyses of 3D 9-QAM modulation, artificial limbs, and communication systems over fading channels.</p>
-            </div>
-        </div>
-    </section>
+			<!--Experiences-->
+			<section id="experience">
+		        <h1>Experiences</h1>
+			        <div class="experience-card">
+			        	<a href="https://www.upwork.com/freelancers/~012aa681b06eba6870">
+				        	<h2>AI/ML Engineer & DataScience Expert</h2>
+				        	<p>Upwork - <i>Freelance</i></p>
+				        	<p>Sep 2024 - <i>Present</i></p>
+			        	</a>
+			        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 Umar Zubairi | All Rights Reserved</p>
-    </footer>
+			        <div class="experience-card">
+			        	<a href="https://sites.google.com/view/telecomhub-uz/beyond-sight-project">
+				        	<h2>Team Lead & AI Engineer</h2>
+				        	<p>Project: Beyond Sight: Real-Time Navigation System for the Visually Impaired</p>
+				        	<p>Oct 2023 - Aug 2024</p>
+				        </a>
+			        </div>
 
+			        <div class="experience-card">
+			        	<a href="#home">
+			        	<h2>Intern Python Developer</h2>
+			        	<p>ASK Global Software House </p>
+			        	<p>Aug 2023 - Oct 2023</p></a>
+			        </div>
+		    </section>
+		    <hr>
+
+			<!--Projects-->
+			<section id="projects">
+				<h1>Projects</h1>
+				<!--AI ML Projects-->
+				<h2>AI/ML Projects</h2>
+				
+				<div class="project-card">
+					<a href="https://sites.google.com/view/telecomhub-uz/beyond-sight-project">
+						<h3>Beyond Sight: A Real-Time Navigation</h3>
+						<p>The goal of the project "Beyond Sight: A Real-Time Navigation System for the Visually Impaired" is to assist independent movement and navigation assistance for visually impaired people by utilising cutting edge technology.</p></a>
+				</div>
+
+				<div class="project-card">
+					<a href="https://sites.google.com/view/telecomhub-uz/aiml-projects">
+						<h3>Transfer Learnings</h3>
+						<p>Developed AI solutions using Transfer Learning, including fine-tuning Meta’s Llama-2 (LLM) to create a Doctor-Chatbot for medical consultation, and performing image classification on mobilenetV2 model to detect dog breeds from image input, leveraging pre-trained models for efficient learning.</p></a>
+				</div>
+
+				<div class="project-card">
+					<a href="https://sites.google.com/view/telecomhub-uz/aiml-projects">
+						<h3>Supervised Learnings</h3>
+						<p>Developed and trained supervised learning models to predict heart disease in patients and bulldozer prices using datasets from Kaggle, utilizing algorithms such as logistic regression, decision trees, and random forests, with Python libraries like scikit-learn and Pandas for data processing and analysis</p></a>
+				</div>
+
+				<div class="project-card">
+					<a href="https://sites.google.com/view/telecomhub-uz/aiml-projects">
+					<h3>Reinforcement Learnings</h3>
+					<p>Developed and trained AI agents for various tasks using Reinforcement Learning techniques, including Q-Learning for optimizing e-commerce warehouse flow, DQN for landing a spaceship on the moon, DCQN with CNN integration for playing PacMan, and A3C for KungFu training, leveraging frameworks like NumPy and OpenAI Gymnasium</p></a>
+				</div>
+				<hr>
+
+				<!--telecommunications Projects-->
+				<h2>Telecom Projects</h2>
+				<div class="project-card">
+					<a href="https://sites.google.com/view/telecomhub-uz/telecom-projects">
+					<h3>Telecommunications Engr. Projects</h3>
+					<p>Developed multiple telecommunications projects, including designing and analyzing amplitude modulation systems, implementing a Walsh code decoder, and transmitting binary data over IR Free Space Optical (FSO) communication. Gained hands-on experience in signal processing, coding theory, and digital communication. Designed a long-haul fiber optic link with limited optical amplifiers for up-country data traffic, and configured a SoftSwitch system for VoIP connectivity. Additionally, conducted MATLAB-based analyses of 3D 9-QAM modulation, artificial limbs, and communication systems over fading channels.</p></a>
+				</div>
+				<hr>
+			</section>
+			
+			<!--Contact-->
+			<section id="contact">
+				<h1>Contact Me</h1>
+				<button class="btn" onclick="LinkedIn()">LinkedIn</button>
+				<button class="btn" onclick="WhatsApp()">WhatsApp</button><br>
+				<button class="btn" onclick="Email()">E-mail</button>
+				<button class="btn" onclick="Medium()">Medium</button><br>
+			</section>
+		</div>
+		<!-- Blogs -->
+        <aside class="blog-sidebar">
+            <h1>Featured Blogs</h1>
+            <div id="blog-cards">
+                <!-- Blog cards will be injected here using JavaScript -->
+            </div>
+        </aside>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
