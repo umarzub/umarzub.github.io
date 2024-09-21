@@ -12,7 +12,7 @@ const blogs = [
 ];
 
 
-const aboutText = "I'm an AI Engineer and a Data-Science Expert. I possess an Engineering Degree in Telecommunications. Technology has always been a part of my life, growing with all tech hobbies."
+const aboutText = "Recent Telecommunications Engineering Graduate with a strong academic track record and a deep passion for Artificial Intelligence (AI) and Machine Learning (ML). Proficient in Python, MATLAB, and C#, with practical experience in developing and deploying AI/ML models and solutions. Adept at applying advanced AI techniques such as Supervised Learning, Deep Learning, Reinforcement Learning, and Transfer Learning Processing to tackle complex problems and drive technological innovation. Demonstrated expertise in implementing cutting-edge ML algorithms, fine-tuning large language models, and integrating AI solutions into practical applications. Seeking opportunities to leverage AI and ML skills to contribute to groundbreaking projects and advance technology in the AI/ML field."
 
 
 const aboutCont = document.getElementById('about-content');
