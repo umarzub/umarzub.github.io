@@ -1,13 +1,13 @@
 const blogs = [
     {
+        title: "Roadmap to Learning Anything New (2024): How to Stay Ahead in the Modern World",
+        description: "We live in an era where knowledge is more accessible than ever, yet the ability to learn new things is one of the most valuable skills you can have. The 21st century...",
+        link: "https://medium.com/@engineerumarzubairi/roadmap-to-learning-anything-new-2024-how-to-stay-ahead-in-the-modern-world-f6cf1361827c"
+    },
+    {
         title: "AI and Studies: How I scored 3.7+ CGPA 📚 as an Engineering Student👨‍🎓",
         description: "Achieving a high CGPA in engineering is no small feat, especially when juggling multiple subjects...",
         link: "https://medium.com/@engineerumarzubairi/ai-and-studies-how-i-scored-3-7-cgpa-as-an-engineering-student-f3eecabdab6f"
-    },
-    {
-        title: "Empowering the Visually Impaired: Creative Technologies for Enhanced Navigation",
-        description: "Navigating the world without sight presents significant challenges. For the 2.2 billion people living ...",
-        link: "https://medium.com/@engineerumarzubairi/empowering-the-visually-impaired-creative-technologies-for-enhanced-navigation-4ebd18821b96"
     }
 ];
 
@@ -58,4 +58,8 @@ function Email() {
 
 function Medium() {
     window.open("https://medium.com/@engineerumarzubairi")
+}
+
+function GitHub() {
+    window.open("https://github.com/umarzub")
 }
